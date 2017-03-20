@@ -221,7 +221,7 @@ border-bottom-left-radius: 5px;
   -webkit-border-radius: 10px;
 }
 
-/* Blog */
+/* Entries */
 .hentry {
   border-bottom: 1px solid #eee;
   padding: 1.5em 0;
@@ -236,8 +236,8 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
  
 /* Content */
 .hentry footer {margin-bottom: 2em;}
-.hentry footer address {display: inline;}
-#details-list footer address {display: block;}
+.hentry footer p {display: inline;}
+#details-list footer p {display: block;}
 
 /* Blog Index */
 #details-list {list-style: none; margin: 0;}
@@ -247,4 +247,13 @@ left: 10px;
 position: absolute;
 top: 1.5em;
 width: 190px;
+}
+
+#details-list .hentry:hover {
+  background: #C64350;
+  color: #fff;
+}
+#details-list .hentry:hover a:link, #posts-list .hentry:hover a:visited {
+  color: #F6CF74;
+  text-shadow: 1px 1px 1px #333;
 }
