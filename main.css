@@ -197,6 +197,10 @@ border-bottom-left-radius: 5px;
     float: left;
 }
 
+#peter-score #zheng-score p{
+    text-align: center;
+}
+
 #summary figure img {display: block; float: right;}
  
 #summary h2 {color: #C74451; font-size: 1.714em; margin-bottom: 0.333em;}
