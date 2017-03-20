@@ -6,3 +6,6 @@ td, th {
     vertical-align: bottom;
     text-align: center;
 }
+.winner{
+    color: green;
+}
