@@ -182,20 +182,19 @@ border-bottom-left-radius: 5px;
 }
  
 #summary figure {
-  border: 2px solid #eee;
   float: right;
   margin: 0.786em 2em 0 5em;
-  width: 248px;
+  width: 100px;
 }
 
 #peter-score {
     display: block;
-    float: left;
+    float: right;
 }
 
 #zheng-score{
     display: block;
-    float: right;
+    float: left;
 }
 
 #summary figure img {display: block; float: right;}
