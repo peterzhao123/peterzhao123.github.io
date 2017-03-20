@@ -176,3 +176,47 @@ border-bottom-left-radius: 5px;
 -moz-border-radius-bottomleft: 5px;
 -webkit-border-bottom-left-radius: 5px;
 }
+
+/*
+  Summary
+*****************/
+#summary {
+  background: #fff;
+  margin-bottom: 2em;
+  overflow: hidden;
+  padding: 20px;
+  width: 760px;
+ 
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+ 
+#summary figure {
+  border: 2px solid #eee;
+  float: right;
+  margin: 0.786em 2em 0 5em;
+  width: 248px;
+}
+#summary figure img {display: block; float: right;}
+ 
+#summary h2 {color: #C74451; font-size: 1.714em; margin-bottom: 0.333em;}
+#featured h3 {font-size: 1.429em; margin-bottom: .5em;}
+ 
+#featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
+#summary h3 a:hover, #featured h3 a:active {color: #fff;}
+ 
+/*
+  Body
+*****************/
+#content {
+  background: #fff;
+  margin-bottom: 2em;
+  overflow: hidden;
+  padding: 20px 20px;
+  width: 760px;
+ 
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
