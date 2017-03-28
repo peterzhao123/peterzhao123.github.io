@@ -13,17 +13,21 @@ $(document).ready(function(){
     // Determine winner
     if (records[i][2] == 0 && records[i][3] == 0){
       winner = "No Winner";
+      currpet = 0;
+      currzhe = 0;
     }
     else if (records[i][2] < records[i][3]){
       winner = "Winner: Peter";
       if (records[i][0] == "Weekly"){
         currpet = 4;
+        currzhe = 0;
         if (records[i][3] > 0){
           currzhe = 2;
         }
       }
       else {
         currpet = 2;
+        currzhe = 0;
         if (records[i][3] > 0){
           currzhe = 1;
         }
@@ -33,12 +37,14 @@ $(document).ready(function(){
       winner = "Winner: Zheng";
        if (records[i][0] == "Weekly"){
         currzhe = 4;
+        currpet = 0;
         if (records[i][3] > 0){
           currpet = 2;
         }
       }
       else {
         currzhe = 2;
+        currpet = 0;
         if (records[i][3] > 0){
           currpet = 1;
         }
@@ -54,4 +60,6 @@ $(document).ready(function(){
     cumpet = cumpet + currpet;
     cumzhe = cumzhe + currzhe;
   }
+  $('#details-list').append(cumpet);
+  $('#details-list').append(cumzhe);
 });
