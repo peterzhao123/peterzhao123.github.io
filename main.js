@@ -11,44 +11,38 @@ $(document).ready(function(){
     $curr_record = $('#record-item-template').clone();
     
     // Determine winner
+    // No winner
     if (records[i][2] == 0 && records[i][3] == 0){
       winner = "No Winner";
       currpet = 0;
       currzhe = 0;
     }
+    // Peter did not finish
+    else if (records[i][2] == 0){
+      currpet = 0;
+      currzhe = 2;
+    }
+    // Zheng did not finish
+    else if (records[i][2] == 0){
+      currpet = 2;
+      currzhe = 0;
+    }
+    // Peter lower time than Zheng
     else if (records[i][2] < records[i][3]){
       winner = "Winner: Peter";
-      if (records[i][0] == "Weekly"){
-        currpet = 4;
-        currzhe = 0;
-        if (records[i][3] > 0){
-          currzhe = 2;
-        }
-      }
-      else {
-        currpet = 2;
-        currzhe = 0;
-        if (records[i][3] > 0){
-          currzhe = 1;
-        }
-      }
+      currpet = 2;
+      currzhe = 1;
     }
+    // Zheng lower time than Peter
     else {
       winner = "Winner: Zheng";
-       if (records[i][0] == "Weekly"){
-        currzhe = 4;
-        currpet = 0;
-        if (records[i][3] > 0){
-          currpet = 2;
-        }
-      }
-      else {
-        currzhe = 2;
-        currpet = 0;
-        if (records[i][3] > 0){
-          currpet = 1;
-        }
-      }
+      currpet = 1;
+      currzhe = 2;
+    }
+    // Weekly multiplier
+    if(records[i][0] == "Weekly"){
+      currpet = currpet * 2;
+      currzhe = currzhe * 2;
     }
     $curr_record.attr("id",i);
     $curr_record.find('.entry-title').text(winner);
