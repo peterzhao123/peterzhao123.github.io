@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  document.write(records[0][0]);
+  $('#details-list').append(records[0][0]);
 });
