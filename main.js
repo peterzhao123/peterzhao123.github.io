@@ -38,9 +38,9 @@ $(document).ready(function(){
         }
       }
       else {
-        currzhe += 2;
+        currzhe = 2;
         if (records[i][3] > 0){
-          currpet += 1;
+          currpet = 1;
         }
       }
     }
