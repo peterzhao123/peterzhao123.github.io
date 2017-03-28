@@ -48,7 +48,7 @@ $(document).ready(function(){
     $curr_record.find('.entry-title').text(winner);
     $curr_record.find('.race-date').text(records[i][0]);
     $curr_record.find('.race-name').text(records[i][1]);
-    $curr_record.find('#time-block').html("Peter time: "+records[i][2]+"Score: "+currpet+"<br />Zheng time: "+records[i][3]+"Score: "+currzhe);
+    $curr_record.find('#time-block').html("Peter time: "+records[i][2]+" Score: "+currpet+"<br />Zheng time: "+records[i][3]+" Score: "+currzhe);
     $curr_record.css('display','block');
     $('#details-list').append($curr_record);
     cumpet = cumpet + currpet;
