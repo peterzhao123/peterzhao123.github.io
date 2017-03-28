@@ -1,3 +1,5 @@
 $(document).ready(function(){
-  $('#details-list').append(records[0][0]);
+  var $curr_record = $('#record-item-template').clone();
+  $curr_record.css('display','block');
+  $('#details-list').append($curr_record);
 });
