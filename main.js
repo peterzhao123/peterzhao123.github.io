@@ -23,18 +23,18 @@ $(document).ready(function(){
         }
       }
       else {
-        currpet += 2;
+        currpet = 2;
         if (records[i][3] > 0){
-          currzhe += 1;
+          currzhe = 1;
         }
       }
     }
     else {
       winner = "Winner: Zheng";
        if (records[i][0] == "Weekly"){
-        currzhe += 4;
+        currzhe = 4;
         if (records[i][3] > 0){
-          currpet += 2;
+          currpet = 2;
         }
       }
       else {
@@ -48,7 +48,7 @@ $(document).ready(function(){
     $curr_record.find('.entry-title').text(winner);
     $curr_record.find('.race-date').text(records[i][0]);
     $curr_record.find('.race-name').text(records[i][1]);
-    $curr_record.find('#time-block').text("Peter time: "+records[i][2]+"Score: "+currpet+" Zheng time: "+records[i][3]+"Score: "+currzhe);
+    $curr_record.find('#time-block').text("Peter time: "+records[i][2]+"Score: "+currpet+"<br />Zheng time: "+records[i][3]+"Score: "+currzhe);
     $curr_record.css('display','block');
     $('#details-list').append($curr_record);
     cumpet = cumpet + currpet;
