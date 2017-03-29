@@ -15,5 +15,7 @@ var records = [
   ["March 24", "N/A", 0, 0],
   ["March 25", "Ballmer's Peak", 32.731, 30.959],
   ["March 26", "Tricky Drive", 0.000, 28.557],
-  ["Weekly", "Big Air", 18.550, 19.425]
+  ["Weekly", "Big Air", 18.550, 19.425],
+  ["March 27", "Four-Wheel Park", 22.318, 22.758],
+  ["March 28", "Fingerwoods", 25.460, 26.541]
 ];
