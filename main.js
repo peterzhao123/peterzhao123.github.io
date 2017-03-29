@@ -54,6 +54,6 @@ $(document).ready(function(){
     cumpet = cumpet + currpet;
     cumzhe = cumzhe + currzhe;
   }
-  $('#details-list').append(cumpet);
-  $('#details-list').append(cumzhe);
+  $('#cum-peter-score').text(cumpet);
+  $('#cum-zheng-score').text(cumzhe);
 });
