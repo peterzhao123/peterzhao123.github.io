@@ -57,10 +57,10 @@ $(document).ready(function(){
     $curr_record.find('#time-block').html("Peter time: "+records[i][2]+" Score: "+currpet+"<br />Zheng time: "+records[i][3]+" Score: "+currzhe);
     $curr_record.css('display','block');
     if(winnerbol == 1){
-      $curr_record.css('background','#003333');
+      $curr_record.css('background','#90EE90');
     }
     else if(winnerbol ==2){
-      $curr_record.css('background','#003399');
+      $curr_record.css('background','#87CEFA');
     }
     $('#details-list').append($curr_record);
     cumpet = cumpet + currpet;
