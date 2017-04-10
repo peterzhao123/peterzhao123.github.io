@@ -14,8 +14,16 @@ var records = [
   ["March 23", "Bill's Landing", 30.678, 28.240],
   ["March 24", "N/A", 0, 0],
   ["March 25", "Ballmer's Peak", 32.731, 30.959],
-  ["March 26", "Tricky Drive", 0.000, 28.557],
   ["Weekly", "Big Air", 18.550, 19.425],
+  ["March 26", "Tricky Drive", 0.000, 28.557],
   ["March 27", "Four-Wheel Park", 22.318, 22.758],
-  ["March 28", "Fingerwoods", 25.460, 26.541]
+  ["March 28", "Fingerwoods", 25.460, 26.541],
+  ["March 29", "Shaft Redemption", 27.710, 30.939],
+  ["March 30", "Base Jump", 20.168, 21.406],
+  ["March 31", "Bottom Gear", 20.737, 23.933],
+  ["April 1", "Rubberist", 30.466, 35.119],
+  ["Weekly", "The Dip", 19.533, 20.211],
+  ["April 2", "Seesaw Road", 19.300, 20.959],
+  ["April 3", "Killing Floors", 19.765, 22.381],
+  ["April 4", "Whipclash", 29.294, 32.966]
 ];
