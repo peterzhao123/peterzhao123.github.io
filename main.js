@@ -21,12 +21,14 @@ $(document).ready(function(){
     }
     // Peter did not finish
     else if (records[i][2] == 0){
+      winner = "Winner: Zheng";
       currpet = 0;
       currzhe = 2;
       winnerbol = 2;
     }
     // Zheng did not finish
     else if (records[i][2] == 0){
+      winner = "Winner: Peter";
       currpet = 2;
       currzhe = 0;
       winnerbol = 1;
