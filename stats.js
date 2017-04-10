@@ -24,6 +24,6 @@ var records = [
   ["April 1", "Rubberist", 30.466, 35.119],
   ["Weekly", "The Dip", 19.533, 20.211],
   ["April 2", "Seesaw Road", 19.300, 20.959],
-  ["April 3", "Killing Floors", 19.765, 22.381],
+  ["April 3", "Killing Floors", 22.381, 19.765],
   ["April 4", "Whipclash", 29.294, 32.966]
 ];
