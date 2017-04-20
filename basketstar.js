@@ -9,5 +9,5 @@ $(document).ready(function(){
   <td>A</td>\
   </tr>";
   
-  $('content-table').append(currow);
+  $('#content-table').append(currow);
 });
