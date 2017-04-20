@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Peter's Stat Tracking</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="jquery-3.2.0.min.js"></script>
+    <script src="stats.js"></script>
+    <script src="main.js"></script>
+</head>
+<body in="index" class="home">
+    <header id="banner" class="body">
+            <h1>Hill Climb Racing Summary</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="hillclimb2.html">Hill Climb 2</a></li>
+            <li><a href="test.html">Testing</a></li>
+        </ul>
+    </nav>
+    </header>
+    <aside id="summary" class="body"><article>
+        <hgroup>
+            <h2>Score Summary</h2>
+        </hgroup>
+        <div id="peter-score">
+            <p>Peter</p>
+        <figure>
+            <img src="peterpic.jpg" width=180px height=auto />
+        </figure>
+            <p id="cum-peter-score"></p>
+        </div>
+        <div id="zheng-score">
+            <p>Zheng</p>
+            <figure>
+            <img src="zhengpic.jpg" width=180px height=auto/>
+            </figure>
+            <p id="cum-zheng-score"></p>
+        </div>
+    </article></aside>
+    <section id="content" class="body">
+        <ol id="details-list" class="hfeed">
+            <li style="display:none" id="record-item-template"><article class="hentry">
+                <header>
+                    <h2 class="entry-title"></h2>
+                </header>
+                <footer class="date-info">
+                    <p class="race-date"></p>
+                    <p class="race-name"></p>
+                </footer>
+                <div class="entry-content">
+                    <p id="time-block"></p>
+                </div>
+            </article></li>
+        </ol>
+    </section>
+</body>
+</html>
