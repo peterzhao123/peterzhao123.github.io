@@ -27,3 +27,8 @@ var records = [
   ["April 3", "Killing Floors", 22.381, 19.765],
   ["April 4", "Whipclash", 29.294, 32.966]
 ];
+
+var bsrecords = [
+  // Week, Peter Earned, Zheng Earned, Peter W, Peter L, Zheng W, Zheng L
+  ["Opening", 654900,516300,79,151,127,243]
+];
